@@ -1,0 +1,11 @@
+application:
+  name: httpbin
+  project: basic_www_app-aws-eks-test-e2e-J2v3vjLy
+  publicly_accessible: true
+  organization: QoveryTest
+routers:
+  - name: main
+    routes:
+      - application_name: httpbin
+        paths:
+          - /*
